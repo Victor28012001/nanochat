@@ -1,0 +1,20 @@
+.carousel{
+    overflow: hidden;
+}
+
+.inner{
+    white-space: nowrap;
+    transition: transform 0.3s;
+}
+
+.carousel-item{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 115vh;
+    width: 100%;
+    background-image: url(./pexels-khairul-onggon-908184.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: black;
+}

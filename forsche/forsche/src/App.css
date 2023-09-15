@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+}
+
+.logo {
+  height: 20vmin;
+  width: 35%;
+  color: rgba(53, 14, 36, 0.66);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.App-header {
+  background-color: rgba(182, 128, 159, 0.09);
+  min-height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.burger{
+  /* background-color: rgba(53, 14, 36, 0.66); */
+  width: 50px;
+  height: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.stick{
+  background-color: rgba(107, 66, 89, 0.86);
+  height: 5px;
+  width: 40px;
+  border-radius: 5px;
+}
+
+.circle{
+  background-color: rgba(53, 14, 36, 0.26);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle .App-logo{
+  width: 35px;
+  height: 35px;
+}
+
+.logo2{
+  position: relative;
+  background-color: rgba(53, 14, 36, 0.26);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
